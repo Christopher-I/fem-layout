@@ -11,6 +11,9 @@ html {
 .background {
   background-color: grey;
   display: grid;
+  @media (min-width: "980px") {
+    display: flex;
+  }
 }
 
 body {
